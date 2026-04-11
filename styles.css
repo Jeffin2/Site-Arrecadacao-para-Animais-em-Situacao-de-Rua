@@ -38,6 +38,15 @@ header h1 {
     text-align: center;
 }
 
+.card:hover{
+    background: #dcfaf8;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
 .card h2 {
     margin-bottom: 10px;
 }
@@ -74,5 +83,5 @@ footer {
 
 #fase-programacao {
     font-size: 0.9em;
-    color: #ff6347;
-}   
+    color: red;
+}
