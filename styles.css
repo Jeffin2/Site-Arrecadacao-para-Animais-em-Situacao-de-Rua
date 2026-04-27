@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #2d89ef;
+    background: linear-gradient(to right, #4692e9, #1b5fbd);
     color: white;
     text-align: center;
     padding: 30px;
@@ -42,7 +42,7 @@ header h1 {
     background: #dcfaf8;
     padding: 20px;
     border-radius: 10px;
-    width: 280px;
+    width: 285px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     text-align: center;
 }
@@ -84,4 +84,10 @@ footer {
 #fase-programacao {
     font-size: 0.9em;
     color: red;
+}
+
+.conteudo {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
 }
