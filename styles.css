@@ -1,93 +1,87 @@
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
+/* Fonte e fundo */
 body {
-    background-color: #f4f6f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #faefe3, #fdfdfd);
     color: #333;
+    line-height: 1.6;
 }
 
+/* Cabeçalho */
 header {
-    background: linear-gradient(to right, #4692e9, #1b5fbd);
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 40px 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 
-.campanhas {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 40px;
-    flex-wrap: wrap;
-}
-
-.card {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 280px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    text-align: center;
-}
-
-.card:hover{
-    background: #dcfaf8;
-    padding: 20px;
-    border-radius: 10px;
-    width: 285px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    text-align: center;
-}
-
-.card h2 {
-    margin-bottom: 10px;
-}
-
-.card p {
-    margin-bottom: 15px;
-}
-
-.card button {
-    background-color: #2d89ef;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.card button:hover {
-    background-color: #1b5fbd;
-}
-
-.sobre {
-    text-align: center;
-    padding: 40px;
-    background-color: #fff;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #222;
-    color: white;
+header p {
+    margin-top: 10px;
+    font-size: 1.1rem;
 }
 
 #fase-programacao {
-    font-size: 0.9em;
-    color: red;
+    font-size: 0.9rem;
+    opacity: 0.9;
+    color: red
 }
 
-.conteudo {
+/* Seções */
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Efeito hover */
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #4facfe;
+}
+
+/* Texto */
+p {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
     text-align: center;
-    padding: 40px;
-    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    background: #222;
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    section {
+        margin: 15px;
+        padding: 20px;
+    }
 }
