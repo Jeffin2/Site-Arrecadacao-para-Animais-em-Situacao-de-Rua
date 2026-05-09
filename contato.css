@@ -7,7 +7,7 @@
 
 /* Fonte e fundo */
 body {
-    background-image: url("images/galeria-3-abandono-3.jpg");
+    background-image: url("images/animal\ abandonado.jpeg");
     background-size: cover;      /* cobre a tela inteira */
     background-position: center; /* centraliza */
     background-repeat: no-repeat;/* não repete */
@@ -19,8 +19,9 @@ body {
 
 /* Container principal */
 .contato-suporte{
-  background: #ffffff;
+  background: #e3fcff;
   width: 100%;
+  height: 700px;
   max-width: 420px;
   padding: 25px 30px;
   border-radius: 10px;
@@ -68,7 +69,7 @@ body {
   padding: 12px;
   border: none;
   border-radius: 6px;
-  background: #e74c3c;
+  background: red;
   color: #fff;
   font-size: 15px;
   font-weight: bold;
