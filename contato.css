@@ -1,0 +1,117 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e fundo */
+body {
+    background-image: url("images/galeria-3-abandono-3.jpg");
+    background-size: cover;      /* cobre a tela inteira */
+    background-position: center; /* centraliza */
+    background-repeat: no-repeat;/* não repete */
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container principal */
+.contato-suporte{
+  background: #ffffff;
+  width: 100%;
+  max-width: 420px;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
+}
+
+/* Título */
+.contato-suporte h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Labels */
+.contato-suporte label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Inputs e selects */
+.contato-suporte input,
+.contato-suporte select,
+.contato-suporte textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Textarea */
+.contato-suporte textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Botão enviar */
+.contato-suporte button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #e74c3c;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contato-suporte button:hover {
+  background: #c0392b;
+}
+
+/* Botão voltar */
+.voltar-link {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #555;
+}
+
+.voltar-link:hover {
+  text-decoration: underline;
+}
+
+/* Mensagens */
+.mensagem {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.mensagem.sucesso {
+  color: green;
+}
+
+.mensagem.erro {
+  color: red;
+}
+
+/* Responsivo */
+@media (max-width: 480px) {
+  .contato-suporte {
+    padding: 20px;
+  }
+}
