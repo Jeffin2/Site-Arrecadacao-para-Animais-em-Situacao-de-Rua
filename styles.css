@@ -7,8 +7,12 @@
 
 /* Fonte e fundo */
 body {
+    background-image: url("images/galeria-3-abandono-3.jpg");
+    background-size: cover;      /* cobre a tela inteira */
+    background-position: center; /* centraliza */
+    background-repeat: no-repeat;/* não repete */
+    min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #faefe3, #fdfdfd);
     color: #333;
     line-height: 1.6;
 }
@@ -42,16 +46,18 @@ section {
     max-width: 900px;
     margin: 30px auto;
     padding: 25px;
-    background: white;
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.08);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
 }
 
 /* Efeito hover */
 section:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    background: rgba(255, 255, 255, 1);
 }
 
 h2 {
