@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Caixa central */
+.container {
+  text-align: center;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  backdrop-filter: blur(8px);
+}
+
+/* Título */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #cbd5e1;
+}
+
+/* Valor principal */
+h2 {
+  font-size: 4rem;
+  margin: 0;
+  color: #38bdf8;
+  text-shadow: 0 0 10px rgba(56,189,248,0.5);
+  transition: 0.3s ease;
+}
+
+/* Efeito de “mudança” */
+h2.update {
+  transform: scale(1.1);
+}

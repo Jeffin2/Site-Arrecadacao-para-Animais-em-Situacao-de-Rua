@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0b1220;
+  color: #ffffff;
+}
+
+/* Centralização geral */
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 80px auto;
+  text-align: center;
+  padding: 30px;
+  background: #111a2e;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/* Títulos */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #38bdf8;
+  margin: 20px 0;
+}
+
+/* Input */
+input {
+  width: 90%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0;
+  outline: none;
+  background: #1e293b;
+  color: white;
+  font-size: 1rem;
+}
+
+/* Botão */
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #38bdf8;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #0ea5e9;
+  transform: scale(1.03);
+}
+
+/* Erro */
+#error {
+  color: #ef4444;
+  margin-top: 10px;
+}
+
+/* Animação de valor */
+.update {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
