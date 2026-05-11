@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>Valores</title>
   <link rel="stylesheet" href="valores.css">
 </head>
+
 <body>
 
-<div class="container">
-  <h1>Valor total doado: </h1>
-  <h2 id="valor">Carregando...</h2>
-</div>
+  <div class="language-switch">
+    <button onclick="mudarIdioma('pt')" data-key="btn-pt">
+      <img src="images/flag br.png" alt="Português">🇧🇷</button>
 
-<script src="valores.js"></script>
+    <button onclick="mudarIdioma('en')" data-key="btn-en">
+      <img src="images/flag us.png" alt="English">🇺🇸</button>
+  </div>
+
+  <div class="container">
+    <h1 data-key="texto_valor_doado">Valor total doado: </h1>
+    <h2 id="valor" data-key="texto_carregando">Carregando...</h2>
+  </div>
+
+  <br>
+  <a href="index.html" data-key="btn_voltar_valores">Voltar ao menu principal</a>
+
+  <script src="valores.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>

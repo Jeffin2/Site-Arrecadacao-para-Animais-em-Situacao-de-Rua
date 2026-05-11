@@ -9,35 +9,41 @@
 </head>
 
 <body>
+    <div class="language-switch">
+        <button onclick="mudarIdioma('pt')" data-key="btn-pt">
+            <img src="images/flag br.png" alt="Português">🇧🇷</button>
 
+        <button onclick="mudarIdioma('en')" data-key="btn-en">
+            <img src="images/flag us.png" alt="English">🇺🇸</button>
+    </div>
     <div class="contato-suporte">
         <form action="https://formsubmit.co/jeffinpvp.games@gmail.com" method="POST">
-            <h2 data-key="titulo-contato">Support Contact</h2>
+            <h2 data-key="titulo_contato">Support Contact</h2>
 
             <input type="hidden" name="_subject" value="Novo conntato de suporte">
             <input type="hidden" name="_captcha" value="false">
 
-            <label data-key="label-name">Name</label>
+            <label data-key="label_name">Name</label>
             <input type="text" name="Nome" placeholder="Your full name" required>
             <br>
             <br>
-            <label data-key="label-email">Email</label>
+            <label data-key="label_email">Email</label>
             <input type="email" name="Email" placeholder="Your email" required>
             <br>
             <br>
-            <label data-key="label-subject">Subject</label>
+            <label data-key="label_subject">Subject</label>
             <input type="text" name="Assunto" placeholder="Subject of the message" required>
             <br>
             <br>
-            <label data-key="label-message">Message</label>
+            <label data-key="label_message">Message</label>
             <textarea name="Mensagem" placeholder="Describe your question or problem" required></textarea>
 
-            <button type="submit" data-key="btn-enviar">Send Message</button>
+            <button type="submit" data-key="btn_enviar">Send Message</button>
             <br>
-            <a href="index.html" class="btn" data-key="btn-voltar">Return to main menu</a>   
+            <a href="index.html" class="btn" data-key="btn_voltar">Return to main menu</a>
         </form>
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>

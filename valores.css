@@ -4,6 +4,7 @@ body {
   background: linear-gradient(135deg, #0f172a, #1e293b);
   color: white;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -38,4 +39,67 @@ h2 {
 /* Efeito de “mudança” */
 h2.update {
   transform: scale(1.1);
+}
+
+.language-switch{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+
+    display: flex;
+    gap: 10px;
+
+    z-index: 1000;
+}
+
+
+.language-switch button{
+
+    width: 55px;
+    height: 55px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(147, 9, 240, 0.15);
+    backdrop-filter: blur(8px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    overflow: hidden;
+
+    transition: 0.25s;
+}
+
+
+.language-switch button img{
+
+    width: 30px;
+    height: 30px;
+
+    object-fit: contain;
+
+    display: block;
+
+}
+
+
+.language-switch button:hover{
+
+    transform: scale(1.1);
+
+}
+
+.animando{
+
+    opacity: 0;
+
+    transform: translateY(10px);
+
+    transition: 0.35s ease;
+
 }
