@@ -1,2 +1,27 @@
+# Dependências
 node_modules/
+
+# Banco de dados SQLite (opcional, mas recomendado não versionar)
 database.db
+*.db
+
+# Arquivos de ambiente (senhas, configs)
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor (VSCode)
+.vscode/
+
+# build/dist (caso você use depois)
+dist/
+build/
