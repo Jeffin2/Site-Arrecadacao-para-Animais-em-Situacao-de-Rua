@@ -30,8 +30,8 @@ h1 {
 h2 {
   font-size: 4rem;
   margin: 0;
-  color: #38bdf8;
-  text-shadow: 0 0 10px rgba(56,189,248,0.5);
+  color: #48f838;
+  text-shadow: 0 0 10px rgba(56, 248, 72, 0.5);
   transition: 0.3s ease;
 }
 
