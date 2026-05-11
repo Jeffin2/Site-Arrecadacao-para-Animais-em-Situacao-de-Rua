@@ -7,7 +7,7 @@ async function carregar() {
   el.classList.add("update");
   setTimeout(() => el.classList.remove("update"), 300);
 
-  el.innerText = data.valor;
+  el.innerText = "R$ " + data.valor;
 }
 
 carregar();
