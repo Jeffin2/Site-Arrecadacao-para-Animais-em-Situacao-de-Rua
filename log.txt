@@ -1,0 +1,9 @@
+[11/05/2026, 14:53:23] Admin fez login
+[11/05/2026, 14:53:29] Valor alterado para: 120,00
+[11/05/2026, 14:53:36] Valor alterado para: 120,00
+[11/05/2026, 14:53:37] Valor alterado para: 120,00
+[11/05/2026, 14:53:37] Valor alterado para: 120,00
+[11/05/2026, 14:53:37] Valor alterado para: 120,00
+[11/05/2026, 14:53:37] Valor alterado para: 120,00
+[11/05/2026, 14:53:37] Valor alterado para: 120,00
+[11/05/2026, 14:53:48] Valor alterado para: 120,00
