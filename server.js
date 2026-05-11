@@ -8,7 +8,7 @@ const app = express();
 
 /* 🔐 senha admin */
 require("dotenv").config();
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "1234";
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "#RoyaltyGuys";
 
 /* ⚙️ middleware */
 app.use(cors());
