@@ -1,5 +1,5 @@
 async function login() {
-  const senha = document.getElementById("senha").value;
+  const senha = document.getElementById("senha").value.trim(); // ✔ CORRIGIDO
 
   const res = await fetch("/admin-login", {
     method: "POST",

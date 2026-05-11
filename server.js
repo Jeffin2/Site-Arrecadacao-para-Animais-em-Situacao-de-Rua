@@ -5,7 +5,7 @@ const path = require("path");
 
 const app = express();
 
-const ADMIN_PASSWORD = "#RoyaltyGuys"; // 🔐 mude sua senha aqui
+const ADMIN_PASSWORD = "1234"; // 🔐 sua senha aqui
 
 app.use(cors());
 app.use(express.json());
@@ -22,13 +22,15 @@ app.get("/valores", (req, res) => {
 
 /* 🔐 login admin */
 app.post("/admin-login", (req, res) => {
-  const { senha } = req.body;
+  const senhaRecebida = (req.body.senha || "").trim();
 
-  if (senha === ADMIN_PASSWORD) {
-    res.json({ ok: true });
-  } else {
-    res.status(401).json({ ok: false });
+  console.log("Senha recebida:", senhaRecebida);
+
+  if (senhaRecebida === ADMIN_PASSWORD) {
+    return res.json({ ok: true });
   }
+
+  return res.status(401).json({ ok: false, erro: "Senha incorreta" });
 });
 
 /* 📥 pegar valor */
