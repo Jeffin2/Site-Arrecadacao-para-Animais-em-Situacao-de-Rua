@@ -17,7 +17,7 @@
             <img src="images/flag us.png" alt="English">🇺🇸</button>
     </div>
     <div class="contato-suporte">
-        <form action="https://formsubmit.co/jeffinpvp.games@gmail.com" method="POST">
+        <form action="https://formsubmit.co/jeffinpvp.games@gmail.com" method="POST" enctype="multipart/form-data">
             <h2 data-key="titulo_contato">Support Contact</h2>
 
             <input type="hidden" name="_subject" value="Novo conntato de suporte">
@@ -37,7 +37,9 @@
             <br>
             <label data-key="label_message">Message</label>
             <textarea name="Mensagem" placeholder="Describe your question or problem" required></textarea>
-
+            <br>
+            <input type="file" name="anexo" accept=".pdf,.jpg,.jpeg,.png,.docx">
+            <br>
             <button type="submit" data-key="btn_enviar">Send Message</button>
             <br>
             <a href="index.html" class="btn" data-key="btn_voltar">Return to main menu</a>

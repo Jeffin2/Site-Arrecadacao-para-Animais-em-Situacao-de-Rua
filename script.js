@@ -27,6 +27,7 @@ const traducoes = {
         titulo_chave_pix: "Chave Pix para Doações",
         p_chave_pix: "Se você quiser contribuir, pode usar a seguinte chave Pix:",
         p_chave_pix2: "pedrohmaiabarbosa7@gmail.com",
+        p_chave_pix3: "Após realizar o pagamento via Pix, envie o comprovante de pagamento para a área de suporte para comprovar que você enviou o pagamento via Pix.",
 
         titulo_contato: "Contato de Suporte",
         label_name: "Nome",
@@ -71,6 +72,7 @@ const traducoes = {
         titulo_chave_pix: "Pix Key for Donations",
         p_chave_pix: "If you would like to contribute, you can use the following Pix key:",
         p_chave_pix2: "pedrohmaiabarbosa7@gmail.com",
+        p_chave_pix3: "After you make the Pix payment, send the proof of payment to the support area to prove that you sent the Pix payment.",
 
         titulo_contato: "Support Contact",
         label_name: "Name",
